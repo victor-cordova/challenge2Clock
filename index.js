@@ -20,6 +20,7 @@ const transformHour = (hour) => {
 
 const hourTrasformed = transformHour(hour);
 
+
 clockHandSecond.style.cssText = `transform: rotate(${(second * 360) / 60}deg);`;
 clockHandMinute.style.cssText = `transform: rotate(${(minute * 360) / 60}deg);`;
 
